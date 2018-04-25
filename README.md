@@ -48,6 +48,12 @@ Create a Angular Application similar to Google Keep with the following specs.
 	5.1 `getNotes()` to fetch the notes collection  
 	5.2 `addNote()` to persist a note to server  
 6. In case you have implemented this -> `json-server should host and serve angular application and notes api `, please add the necessary steps to run the application in this same file.  
+7. Ensure following commands succeed in your local machine before submitting your code for Preliminary automated review as described next -  
+```npm install
+npm run build
+npm run lint
+npm run test
+npm run e2e```
 
 ## Submitting your solution for preliminary automated review  
 1. Open `https://hobbes-cts.stackroute.in/#/` and login into the platform  
