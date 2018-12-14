@@ -4,6 +4,36 @@
       "id": 1,
       "title": "Read Angular 5 blog",
       "text": "Shall do at 6 pm"
+    },
+    {
+      "title": "Meeting",
+      "text": "Meeting to start at 7PM today.",
+      "id": 2
+    },
+    {
+      "title": "Dinner",
+      "text": "Team dinner is arranged tomorrow.",
+      "id": 3
+    },
+    {
+      "title": "Hello",
+      "text": "Hello how are you",
+      "id": 4
+    },
+    {
+      "title": "CTS",
+      "text": "Cognizant technology solutions",
+      "id": 5
+    },
+    {
+      "title": "Hi",
+      "text": "Hiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
+      "id": 6
+    },
+    {
+      "title": "test",
+      "text": "testing keep functionality",
+      "id": 7
     }
   ]
 }

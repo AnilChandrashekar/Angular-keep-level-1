@@ -1,0 +1,19 @@
+.add-note-section {
+    margin-left: 25%;
+    width: 50%;
+}
+
+.mat-input {
+    width: 100%;
+}
+
+.notes-section{
+    width: 50%;
+    margin-left: 25%;
+}
+
+mat-card {
+    display: inline-flex;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}

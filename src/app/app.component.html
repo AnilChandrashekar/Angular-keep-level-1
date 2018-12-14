@@ -6,13 +6,43 @@
 
 <!-- To add notes -->
 
+<div class="add-note-section">
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Take a note
+      </mat-panel-title>
+    
+    </mat-expansion-panel-header>
+  
+
+    <mat-form-field class="mat-input">
+      <input matInput placeholder="title" name ="title" [(ngModel)]="note.title">
+    </mat-form-field>
+  
+    <mat-form-field class="mat-input">
+      <textarea matInput placeholder="text" name ="text" [(ngModel)]="note.text"></textarea>
+    </mat-form-field>
+  
+    <div class="mat-input">
+      <button mat-button (click)="addNote()">Done</button>
+    </div>
+  </mat-expansion-panel>
+</div>
+
+<div class="notes-section" *ngIf="noteList && noteList.length">
+  <h2>Added Notes:</h2>
+  <mat-card *ngFor="let note of noteList">
+    <mat-card-title>{{note.title}}</mat-card-title>
+    <mat-card-content>{{note.text}}</mat-card-content>
+  </mat-card>
+</div>
 
 
 
 
 
 <!-- Load and display the collection of notes from server as Material Cards with card title set to note title and card content set to note text  -->
-
 
 
 
